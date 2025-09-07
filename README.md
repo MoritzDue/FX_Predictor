@@ -47,6 +47,9 @@ The dataset is constructed from daily EUR/USD price data (via `yfinance`) with e
 - Lightweight LSTM captures temporal patterns but lags in accuracy (~56%).  
 - Demonstrates the challenge of modeling FX time series with deep learning.  
 
+**Note:** Attempts were made to design a trading strategy based on the Random Forest model.  
+While predictions showed high accuracy, the strategy delivered **low returns after transaction costs**, so it was ultimately scrapped.   
+
 **Sample trading signals (confidence in brackets):**
 2023-12-12: BUY (0.97)
 2023-12-15: SELL (0.06)
