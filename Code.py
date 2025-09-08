@@ -1,5 +1,4 @@
 # EUR/USD Exchange Rate Prediction with Random Forest and Lightweight LSTM
-# Features: Technical indicators and price patterns
 
 import yfinance as yf
 import pandas as pd
